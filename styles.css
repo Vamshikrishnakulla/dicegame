@@ -48,12 +48,23 @@ footer {
 }
 
 @media screen and (max-width: 770px) {
+  .container {
+    widht: 100%;
+  }
+  
   .dice {
     width: 49%;
   }
+  
   h1{
     font-size: 10vw;
   }
+  
+  img{
+    width: 95%;
+    height: 100%;
+  }
+  
   footer {
     position: fixed;
     bottom: 0;
